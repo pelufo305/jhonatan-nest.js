@@ -1,0 +1,48 @@
+
+//restaurants
+{
+   "_id":{
+      "$oid":"64769949d1a941c9798a1e03"
+   },
+   "type":"Italiano",
+   "speciality":"Pasta",
+   "title":"Restaurante1"
+}
+
+{
+   "_id":{
+      "$oid":"6476995bd1a941c9798a1e04"
+   },
+   "type":"Argentino",
+   "speciality":"Pasta",
+   "title":"Restaurante2"
+}
+//menus
+
+
+{
+   "_id":{
+      "$oid":"64769975d1a941c9798a1e05"
+   },
+   "restaurant":"64769949d1a941c9798a1e03",
+   "ingredients":[
+      "ingrediente1",
+      "ingrediente2",
+      "ingrediente3",
+      "ingrediente4"
+   ],
+   "title":"Pasta 1"
+}
+{
+   "_id":{
+      "$oid":"6476721e57615eb45f8f9323"
+   },
+   "restaurant":"6476995bd1a941c9798a1e04",
+   "ingredients":[
+      "ingrediente5",
+      "ingrediente6",
+      "ingrediente7",
+      "ingrediente8"
+   ],
+   "title":"Pasta 1"
+}
